@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="brand_bg">#0B2545</color>
+    <color name="brand_primary">#2EC4B6</color>
+    <color name="brand_secondary">#FFB703</color>
+    <color name="brand_surface">#102A4D</color>
+    <color name="brand_on">#FFFFFF</color>
+    <color name="brand_subtle">#AFC6D5</color>
+    <color name="brand_stroke">#1C3A66</color>
 </resources>

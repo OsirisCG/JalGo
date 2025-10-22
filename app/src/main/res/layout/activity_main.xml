@@ -2,18 +2,185 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/brand_bg"
+    android:padding="16dp">
 
-    <TextView
+    <!-- Header -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/brand_surface"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:strokeColor="@color/brand_stroke"
+        app:strokeWidth="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="79dp"
+                android:layout_height="81dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jalgo" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textStyle="bold"
+                    android:textColor="@color/brand_on"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/subtitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lema_responsable"
+                    android:textColor="@color/brand_subtle"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Toggle con botones DENTRO -->
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleFiltro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:singleSelection="true"
+        app:selectionRequired="true"
+        app:layout_constraintTop_toBottomOf="@id/cardHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todo"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/brand_surface"
+            android:textColor="@color/brand_on"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSostenible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sostenible"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/brand_surface"
+            android:textColor="@color/brand_on"/>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <!-- CTA: Explorar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExplorar"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="@string/btn_explorar"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/brand_primary"
+        android:textColor="@color/brand_on"
+        app:icon="@android:drawable/ic_menu_search"
+        app:iconGravity="start"
+        app:iconPadding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/toggleFiltro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <!-- CTA: Mapa -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMapa"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="@string/btn_mapa"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/brand_secondary"
+        android:textColor="@color/brand_on"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconGravity="start"
+        app:iconPadding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btnExplorar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Imagen collage con constraints reales -->
+    <ImageView
+        android:id="@+id/imgCollage"
+        android:layout_width="344dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/collage"
+        app:layout_constraintBottom_toTopOf="@id/cardConsejos"
+        app:layout_constraintDimensionRatio="16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/btnMapa" />
+
+    <!-- Card consejos al fondo -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardConsejos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/brand_surface"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="1dp"
+        app:strokeColor="@color/brand_stroke"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tituloConsejos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consejos sostenibles"
+                android:textStyle="bold"
+                android:textColor="@color/brand_on"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/linkConsejos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver recomendaciones"
+                android:textColor="@color/brand_secondary"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

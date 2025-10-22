@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JalGo</string>
+    <string name="lema_responsable">Explora la ZMG</string>
+    <string name="modo_eco">Modo ecológico</string>
+    <string name="btn_explorar">Explorar</string>
+    <string name="btn_mapa">Mapa</string>
+    <string name="consejos_sostenibles">Consejos sostenibles</string>
 </resources>
