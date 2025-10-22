@@ -2,57 +2,85 @@ package com.example.jalgo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
-import androidx.appcompat.app.AlertDialog;
+
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.button.MaterialButtonToggleGroup;
+import androidx.core.content.ContextCompat;
+
+import com.google.android.material.card.MaterialCardView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private MaterialButtonToggleGroup toggleFiltro;
-    private MaterialButton btnTodo, btnSostenible, btnExplorar, btnMapa;
+    private String filtro = "todo"; // valor inicial
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toggleFiltro   = findViewById(R.id.toggleFiltro);
-        btnTodo        = findViewById(R.id.btnTodo);
-        btnSostenible  = findViewById(R.id.btnSostenible);
-        btnExplorar    = findViewById(R.id.btnExplorar);
-        btnMapa        = findViewById(R.id.btnMapa);
-        TextView link  = findViewById(R.id.linkConsejos);
+        Button btnTodo = findViewById(R.id.btnTodo);
+        Button btnSostenible = findViewById(R.id.btnSostenible);
+        Button btnExplorar = findViewById(R.id.btnExplorar);
+        Button btnMapa = findViewById(R.id.btnMapa);
+        TextView linkConsejos = findViewById(R.id.linkConsejos);
+        MaterialCardView cardConsejos = findViewById(R.id.cardConsejos);
 
-        // Preselección: "Todo"
-        toggleFiltro.check(btnTodo.getId());
+        // Colores base
+        int colorActivo = ContextCompat.getColor(this, R.color.brand_primary);
+        int colorInactivo = ContextCompat.getColor(this, R.color.brand_surface);
+        int textoActivo = ContextCompat.getColor(this, R.color.brand_on);
+        int textoInactivo = ContextCompat.getColor(this, R.color.brand_subtle);
 
+        // Estado inicial
+        btnTodo.setBackgroundColor(colorActivo);
+        btnTodo.setTextColor(textoActivo);
+        btnSostenible.setBackgroundColor(colorInactivo);
+        btnSostenible.setTextColor(textoInactivo);
+
+        // Listener "Todo"
+        btnTodo.setOnClickListener(v -> {
+            filtro = "todo";
+            btnTodo.setBackgroundColor(colorActivo);
+            btnTodo.setTextColor(textoActivo);
+            btnSostenible.setBackgroundColor(colorInactivo);
+            btnSostenible.setTextColor(textoInactivo);
+        });
+
+        // Listener "Sostenible"
+        btnSostenible.setOnClickListener(v -> {
+            filtro = "sostenible";
+            btnSostenible.setBackgroundColor(colorActivo);
+            btnSostenible.setTextColor(textoActivo);
+            btnTodo.setBackgroundColor(colorInactivo);
+            btnTodo.setTextColor(textoInactivo);
+        });
+
+        // Listener "Explorar"
         btnExplorar.setOnClickListener(v -> {
-            boolean soloSostenible = toggleFiltro.getCheckedButtonId() == btnSostenible.getId();
-            Intent i = new Intent(this, ExplorarActivity.class);
-            i.putExtra("solo_sostenible", soloSostenible);
-            startActivity(i);
+            Intent intent = new Intent(MainActivity.this, ExplorarActivity.class);
+            intent.putExtra("filtro", filtro);
+            startActivity(intent);
         });
 
+        // Listener "Mapa"
         btnMapa.setOnClickListener(v -> {
-            boolean soloSostenible = toggleFiltro.getCheckedButtonId() == btnSostenible.getId();
-            Intent i = new Intent(this, MapaActivity.class);
-            i.putExtra("solo_sostenible", soloSostenible);
+            Intent i = new Intent(MainActivity.this, MapaActivity.class);
+            i.putExtra("filtro", filtro); // "todo" o "sostenible"
             startActivity(i);
         });
 
-        link.setOnClickListener(v -> mostrarDialogoConsejos());
-    }
 
-    private void mostrarDialogoConsejos() {
-        new AlertDialog.Builder(this)
-                .setTitle("Consejos sostenibles")
-                .setMessage("• Lleva termo, evita desechables\n" +
-                        "• Camina/bici/transporte público\n" +
-                        "• Respeta flora/fauna y senderos\n" +
-                        "• Evita horas pico para dispersar visitas")
-                .setPositiveButton("Ok", null)
-                .show();
+        // Listener "Consejos sostenibles"
+        linkConsejos.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ConsejosActivity.class);
+            startActivity(intent);
+        });
+
+        // También hace clic al tocar toda la tarjeta
+        cardConsejos.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ConsejosActivity.class);
+            startActivity(intent);
+        });
     }
 }

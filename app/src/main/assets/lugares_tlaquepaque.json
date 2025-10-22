@@ -1,0 +1,763 @@
+[
+
+  {
+
+    "nombre": "Andador Independencia y El Parián",
+    "municipio": "Tlaquepaque",
+    "tipo": "Zona cultural / gastronómica",
+    "lat": 20.63918,
+    "lng": -103.30946,
+    "ubicacion": "San Pedro Tlaquepaque, Jalisco, México",
+    "direccion": "Andador Independencia, Centro Histórico, 45500 Tlaquepaque, Jalisco",
+    "horario": "Lunes a domingo de 10:00 a 22:00",
+    "costo": "Libre acceso; consumo según restaurante o bar",
+    "que_hacer": [
+      "Pasear por el andador peatonal con galerías y tiendas artesanales",
+      "Visitar El Parián para escuchar mariachi y comer platillos típicos",
+      "Asistir a eventos culturales y ferias locales"
+    ],
+    "servicios": [
+      "Restaurantes y bares",
+      "Tiendas de artesanías",
+      "Baños y estacionamiento cercano"
+    ],
+    "recomendaciones": "Ideal por la tarde o noche, mantener precaución con pertenencias, evitar horas de alta afluencia los fines de semana.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Promoción de cultura local y gastronomía tradicional",
+      "Riesgo por sobrecarga turística y ruido nocturno"
+    ],
+    "imagen": "parian.webp",
+    "imagenes_extra": ["parian_1.webp", "parian_2.webp"]
+  },
+  {
+    "nombre": "Centro Cultural El Refugio",
+    "municipio": "Tlaquepaque",
+    "tipo": "Centro cultural / Patrimonio histórico",
+    "lat": 20.64140,
+    "lng": -103.31402,
+    "ubicacion": "San Pedro Tlaquepaque, Jalisco, México",
+    "direccion": "Donato Guerra 160, Centro, 45500 Tlaquepaque, Jalisco",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada gratuita o con costo simbólico en exposiciones",
+    "que_hacer": [
+      "Visitar exposiciones de arte y ferias artesanales",
+      "Asistir a talleres, conciertos y festivales",
+      "Recorrer la arquitectura del antiguo hospital convertido en centro cultural"
+    ],
+    "servicios": [
+      "Salas de exposición",
+      "Cafetería y tienda de arte",
+      "Accesibilidad y sanitarios"
+    ],
+    "recomendaciones": "Revisar cartelera de eventos antes de ir, ideal para visitas tranquilas o académicas.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Reutilización de edificio histórico",
+      "Difusión del arte y cultura local"
+    ]
+  },
+  {
+    "nombre": "Museo Regional de la Cerámica",
+    "municipio": "Tlaquepaque",
+    "tipo": "Museo / Artesanía tradicional",
+    "lat": 20.63902,
+    "lng": -103.31488,
+    "ubicacion": "San Pedro Tlaquepaque, Jalisco, México",
+    "direccion": "Independencia 237, Centro Histórico, 45500 Tlaquepaque, Jalisco",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Explorar colecciones de cerámica tradicional jalisciense",
+      "Observar demostraciones de alfarería",
+      "Conocer la historia del arte popular de Tlaquepaque"
+    ],
+    "servicios": [
+      "Salas climatizadas",
+      "Tienda artesanal",
+      "Guías culturales"
+    ],
+    "recomendaciones": "Visita ideal para interesados en artes populares, respetar piezas exhibidas y evitar tocar.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Preservación de tradiciones artesanales",
+      "Promoción de prácticas culturales sostenibles"
+    ]
+  },
+  {
+    "nombre": "Basílica de Nuestra Señora de Zapopan",
+    "municipio": "Zapopan",
+    "tipo": "Santuario religioso / Patrimonio cultural",
+    "lat": 20.72128,
+    "lng": -103.39231,
+    "ubicacion": "Zapopan, Jalisco, México",
+    "direccion": "Eva Briseño 152, 45100 Zapopan, Jalisco",
+    "horario": "Lunes a domingo 7:00-21:00",
+    "costo": "Gratuito",
+    "que_hacer": [
+      "Adorar la imagen de la Virgen de Zapopan",
+      "Recorrer el edificio barroco del siglo XVII",
+      "Participar en la romería del 12 de octubre"
+    ],
+    "servicios": [
+      "Capilla y confesionarios",
+      "Tiendita de recuerdos",
+      "Accesibilidad básica"
+    ],
+    "recomendaciones": "Visitar con vestimenta adecuada, respetar los actos religiosos, aprovechar para conocer el museo interno.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Conservación del patrimonio arquitectónico",
+      "Promoción del turismo cultural responsable"
+    ]
+  },
+  {
+    "nombre": "Parque Metropolitano de Guadalajara",
+    "municipio": "Zapopan",
+    "tipo": "Parque urbano / Recreación al aire libre",
+    "lat": 20.67447,
+    "lng": -103.43743,
+    "ubicacion": "Zapopan, Jalisco, México",
+    "direccion": "Av. Ludwig Van Beethoven 5800, Col. La Estancia, 45030 Zapopan, Jalisco",
+    "horario": "Todos los días 6:00-19:30",
+    "costo": "Gratuito",
+    "que_hacer": [
+      "Caminar o correr por las pistas",
+      "Alquilar bicicletas",
+      "Realizar picnic en áreas verdes"
+    ],
+    "servicios": [
+      "Renta de bicicletas",
+      "Módulos de juegos infantiles",
+      "Áreas de asadores"
+    ],
+    "recomendaciones": "Llevar agua y sombrero, evitar horas pico de sol, ideal para familias.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Espacio público protegido",
+      "Promoción de actividad física y contacto con naturaleza"
+    ]
+  },
+  {
+    "nombre": "Bosque Los Colomos",
+    "municipio": "Zapopan",
+    "tipo": "Bosque urbano / Área natural",
+    "lat": 20.70283,
+    "lng": -103.38536,
+    "ubicacion": "Límite Guadalajara-Zapopan, Jalisco, México",
+    "direccion": "Calle El Chaco 3200, Col. Providencia, Zapopan, Jalisco",
+    "horario": "Todos los días 7:00-19:30",
+    "costo": "Gratuito",
+    "que_hacer": [
+      "Pasear entre árboles centenarios",
+      "Visitar el jardín japonés y lagos",
+      "Hacer senderismo o trotar"
+    ],
+    "servicios": [
+      "Senderos señalizados",
+      "Áreas de descanso",
+      "Cafetería ligera"
+    ],
+    "recomendaciones": "Respetar fauna y flora, llevar calzado adecuado, evitar generar ruido excesivo.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Protección de flora y fauna urbana",
+      "Educación ambiental en sitio"
+    ]
+  },
+  {
+    "nombre": "Auditorio Telmex",
+    "municipio": "Zapopan",
+    "tipo": "Auditorio de espectáculos / Cultura masiva",
+    "lat": 20.73635,
+    "lng": -103.38391,
+    "ubicacion": "Zapopan, Jalisco, México",
+    "direccion": "Obreros de Cananea 747, Col. Belenes Industrial, 45157 Zapopan, Jalisco",
+    "horario": "Según evento",
+    "costo": "Variable según evento",
+    "que_hacer": [
+      "Asistir a conciertos, obras de teatro y congresos",
+      "Visitar el recinto antes del evento",
+      "Disfrutar instalaciones premium"
+    ],
+    "servicios": [
+      "Taquilla y boletería",
+      "Estacionamiento amplio",
+      "Accesibilidad para personas con discapacidad"
+    ],
+    "recomendaciones": "Revisar el evento programado, llegar con anticipación, respetar normas del recinto.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Iluminación eficiente en espectáculos",
+      "Uso compartido del espacio cultural"
+    ]
+  },
+  {
+    "nombre": "Andares Centro Comercial",
+    "municipio": "Zapopan",
+    "tipo": "Centro comercial de lujo / Entretenimiento",
+    "lat": 20.70977,
+    "lng": -103.41274,
+    "ubicacion": "Zapopan, Jalisco, México",
+    "direccion": "Blvd. Puerta de Hierro 4965, Col. Puerta de Hierro, 45116 Zapopan, Jalisco",
+    "horario": "11:00-21:00",
+    "costo": "Libre acceso; compras individuales según tienda",
+    "que_hacer": [
+      "Ir de compras de marcas internacionales",
+      "Cenar en restaurantes de gama media-alta",
+      "Ver cine de lujo"
+    ],
+    "servicios": [
+      "Estacionamiento techado",
+      "Baños y valet parking",
+      "Zona infantil de entretenimiento"
+    ],
+    "recomendaciones": "Presupuesto alto recomendado, ideal para hacer compras o pasear al atardecer.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Uso de estructuras modernas",
+      "Promoción de consumo masivo que genera impacto"
+    ]
+  },
+  {
+    "nombre": "Estadio Akron",
+    "municipio": "Zapopan",
+    "tipo": "Estadio deportivo / Multiusos",
+    "lat": 20.67338,
+    "lng": -103.46252,
+    "ubicacion": "Zapopan, Jalisco, México",
+    "direccion": "Av. Circuito JVC 2800, Col. El Bajío, 45190 Zapopan, Jalisco",
+    "horario": "Según evento",
+    "costo": "Variable según evento",
+    "que_hacer": [
+      "Ver partidos de fútbol y conciertos",
+      "Realizar tour por el estadio y museo",
+      "Participar en eventos corporativos"
+    ],
+    "servicios": [
+      "Tiendas oficiales del club",
+      "Museo del club",
+      "Estacionamiento gratuito y accesos modernos"
+    ],
+    "recomendaciones": "Comprar boletos anticipados, revisar que no haya reprogramación, planear transporte para eventos.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Infraestructura moderna que puede optimizar recursos",
+      "Alta demanda que genera huella masiva"
+    ]
+  },
+  {
+    "nombre": "Cerro de la Reina",
+    "municipio": "Tonala",
+    "tipo": "Mirador / Sitio histórico y natural",
+    "lat": 20.62335,
+    "lng": -103.23386,
+    "ubicacion": "Tonalá, Jalisco, México",
+    "direccion": "Cerro de la Reina, Centro, 45400 Tonalá, Jalisco",
+    "horario": "Todos los días de 7:00 a 20:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Disfrutar vistas panorámicas del Valle de Tonalá y la ZMG",
+      "Visitar el monumento a la Reina Cihualpilli Tzapotzintli",
+      "Subir por el sendero natural o en vehículo"
+    ],
+    "servicios": [
+      "Miradores y áreas de descanso",
+      "Puestos de comida local",
+      "Estacionamiento limitado"
+    ],
+    "recomendaciones": "Llevar agua, calzado cómodo y sombrero; ideal por la mañana o atardecer; respetar el entorno natural.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Espacio natural protegido",
+      "Promoción del ecoturismo y del patrimonio histórico local"
+    ]
+  },
+  {
+    "nombre": "Tianguis Artesanal de Tonalá",
+    "municipio": "Tonala",
+    "tipo": "Mercado artesanal / Cultural",
+    "lat": 20.62491,
+    "lng": -103.23671,
+    "ubicacion": "Tonalá, Jalisco, México",
+    "direccion": "Av. Tonaltecas y alrededores del Centro Histórico, Tonalá, Jalisco",
+    "horario": "Jueves y domingo de 8:00 a 17:00",
+    "costo": "Libre acceso; precios variables por producto",
+    "que_hacer": [
+      "Comprar artesanías de barro, vidrio soplado, papel maché y metal",
+      "Conocer a artesanos locales",
+      "Probar antojitos tradicionales en los puestos del mercado"
+    ],
+    "servicios": [
+      "Sanitarios públicos",
+      "Transporte urbano cercano",
+      "Zonas techadas y áreas de sombra"
+    ],
+    "recomendaciones": "Evitar horas de calor intenso, llevar efectivo y calzado cómodo, cuidar pertenencias.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Fomento de la economía local artesanal",
+      "Riesgo por generación de residuos y saturación de visitantes"
+    ]
+  },
+  {
+    "nombre": "Laguna y Malecón de Cajititlán",
+    "municipio": "Tlajomulco de Zuñiga",
+    "tipo": "Área natural / Recreación turística",
+    "lat": 20.41655,
+    "lng": -103.29823,
+    "ubicacion": "Cajititlán, Tlajomulco de Zúñiga, Jalisco, México",
+    "direccion": "Malecón de Cajititlán, Tlajomulco de Zúñiga, Jalisco",
+    "horario": "Todos los días de 6:00 a 20:00",
+    "costo": "Libre acceso; paseos en lancha desde $50-$100 MXN por persona",
+    "que_hacer": [
+      "Dar paseo en lancha por la laguna",
+      "Caminar por el malecón y disfrutar la gastronomía local",
+      "Visitar la Parroquia de los Reyes Magos y eventos religiosos"
+    ],
+    "servicios": [
+      "Estacionamiento y zona peatonal",
+      "Restaurantes y puestos de comida",
+      "Baños públicos"
+    ],
+    "recomendaciones": "Evitar bañarse en la laguna, preferir visita matutina o al atardecer, respetar normas ambientales y de limpieza.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Programa de conservación del ecosistema lacustre",
+      "Promoción del turismo responsable y comunitario"
+    ]
+  },
+  {
+    "nombre": "Ruta de los Pueblos Ribereños",
+    "municipio": "Tlajomulco de Zuñiga",
+    "tipo": "Ruta turística / Cultural y natural",
+    "lat": 20.40687,
+    "lng": -103.31572,
+    "ubicacion": "Tlajomulco de Zúñiga, Jalisco, México",
+    "direccion": "Incluye Cajititlán, Cuexcomatitlán, San Juan Evangelista, San Lucas Evangelista y San Miguel Cuyutlán",
+    "horario": "Acceso libre; horarios variables por comunidad",
+    "costo": "Libre acceso; gastos según actividades o transporte",
+    "que_hacer": [
+      "Recorrer los pueblos tradicionales alrededor de la laguna de Cajititlán",
+      "Visitar talleres artesanales y templos coloniales",
+      "Probar dulces típicos, nieves y comida regional"
+    ],
+    "servicios": [
+      "Transporte local y guías comunitarios",
+      "Restaurantes y fondas típicas",
+      "Áreas de descanso y miradores"
+    ],
+    "recomendaciones": "Ideal recorrer en fin de semana, respetar costumbres locales, consumir productos regionales para apoyar a la comunidad.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Fomento al turismo rural y artesanal",
+      "Preservación cultural y ambiental en coordinación con comunidades locales"
+    ]
+  },
+  {
+    "nombre": "Paisaje Agavero y Miradores del Volcán de Tequila",
+    "municipio": "Tequila",
+    "tipo": "Área natural y cultural / Patrimonio Mundial UNESCO",
+    "lat": 20.88469,
+    "lng": -103.83309,
+    "ubicacion": "Tequila, Jalisco, México",
+    "direccion": "Carretera Tequila-Amatitán, Zona Agavera, Tequila, Jalisco",
+    "horario": "Todos los días de 8:00 a 19:00",
+    "costo": "Libre acceso; tours guiados desde $200-$500 MXN",
+    "que_hacer": [
+      "Recorrer los campos de agave azul Patrimonio Mundial",
+      "Subir a los miradores del Volcán de Tequila",
+      "Tomar fotografías y visitar ranchos tequileros tradicionales"
+    ],
+    "servicios": [
+      "Rutas turísticas señalizadas",
+      "Guías certificados y transporte local",
+      "Tiendas de recuerdos y miradores"
+    ],
+    "recomendaciones": "Usar sombrero, bloqueador y calzado cómodo; respetar plantaciones; evitar ingresar sin guía.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Conservación del agave tequilana Weber azul",
+      "Protección de paisaje cultural y prácticas agrícolas tradicionales"
+    ]
+  },
+  {
+    "nombre": "Plaza Principal y Parroquia Santiago Apóstol",
+    "municipio": "Tequila",
+    "tipo": "Centro histórico / Sitio religioso",
+    "lat": 20.88221,
+    "lng": -103.83501,
+    "ubicacion": "Tequila, Jalisco, México",
+    "direccion": "Plaza Principal s/n, Centro, 46400 Tequila, Jalisco",
+    "horario": "Lunes a domingo de 7:00 a 20:00",
+    "costo": "Libre acceso",
+    "que_hacer": [
+      "Visitar la Parroquia de Santiago Apóstol del siglo XVIII",
+      "Pasear por la plaza y los portales coloniales",
+      "Disfrutar música y comida típica en los portales"
+    ],
+    "servicios": [
+      "Restaurantes y bares",
+      "Guías locales",
+      "Estacionamiento y baños públicos"
+    ],
+    "recomendaciones": "Ideal por la tarde, respetar actividades religiosas, ideal para fotografía urbana.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Conservación arquitectónica y cultural",
+      "Promoción del turismo peatonal en el centro histórico"
+    ]
+  },
+  {
+    "nombre": "MUNAT y Centro Cultural Juan Beckmann Gallardo",
+    "municipio": "Tequila",
+    "tipo": "Museo / Centro cultural",
+    "lat": 20.88302,
+    "lng": -103.83427,
+    "ubicacion": "Tequila, Jalisco, México",
+    "direccion": "Av. José Cuervo 20, Centro, 46400 Tequila, Jalisco",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada general $150-$200 MXN; descuentos para estudiantes",
+    "que_hacer": [
+      "Recorrer el Museo Nacional del Tequila (MUNAT)",
+      "Visitar el Centro Cultural Juan Beckmann Gallardo",
+      "Conocer exposiciones sobre la historia del agave y el proceso tequilero"
+    ],
+    "servicios": [
+      "Salas interactivas y exposiciones permanentes",
+      "Tienda de recuerdos y cafetería",
+      "Accesibilidad para personas con discapacidad"
+    ],
+    "recomendaciones": "Ideal para complementar visita al paisaje agavero, revisar horarios por temporada alta.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Educación patrimonial y cultural",
+      "Difusión de prácticas sostenibles en la industria tequilera"
+    ]
+  },
+  {
+    "nombre": "Destilerías y Trenes Turísticos de Tequila",
+    "municipio": "Tequila",
+    "tipo": "Turismo industrial / Experiencia temática",
+    "lat": 20.88085,
+    "lng": -103.83343,
+    "ubicacion": "Tequila, Amatitán y Arenal, Jalisco, México",
+    "direccion": "Diversas destilerías en la Ruta del Tequila, Jalisco",
+    "horario": "Según tour o empresa",
+    "costo": "Tours desde $800 a $2500 MXN según paquete",
+    "que_hacer": [
+      "Visitar destilerías como José Cuervo, Casa Sauza o Orendain",
+      "Realizar degustaciones guiadas",
+      "Viajar en tren turístico Tequila Express o José Cuervo Express"
+    ],
+    "servicios": [
+      "Transporte incluido en paquetes",
+      "Restaurantes y tiendas temáticas",
+      "Guías bilingües"
+    ],
+    "recomendaciones": "Reservar con anticipación, evitar consumo excesivo, seguir lineamientos de seguridad.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Algunas empresas promueven reciclaje y tratamiento de vinazas",
+      "Riesgo alto por turismo masivo y generación de residuos"
+    ]
+  },
+  {
+    "nombre": "Malecón y Lago de Chapala",
+    "municipio": "Chapala",
+    "tipo": "Área natural / Recreación familiar",
+    "lat": 20.30456,
+    "lng": -103.18424,
+    "ubicacion": "Chapala, Jalisco, México",
+    "direccion": "Paseo Ramón Corona s/n, Centro, 45900 Chapala, Jalisco",
+    "horario": "Todos los días de 7:00 a 21:00",
+    "costo": "Libre acceso",
+    "que_hacer": [
+      "Caminar por el malecón y disfrutar la vista al lago",
+      "Pasear en lancha o bicicleta",
+      "Probar comida típica en restaurantes del malecón"
+    ],
+    "servicios": [
+      "Renta de lanchas y bicicletas",
+      "Áreas de juegos y descanso",
+      "Baños y estacionamiento"
+    ],
+    "recomendaciones": "Evitar contaminación, no nadar en el lago, respetar aves y flora local.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Reforestación y limpieza del malecón",
+      "Control de residuos sólidos y educación ambiental"
+    ]
+  },
+  {
+    "nombre": "Ajijic Pueblo Mágico",
+    "municipio": "Chapala",
+    "tipo": "Pueblo Mágico / Cultural y natural",
+    "lat": 20.29657,
+    "lng": -103.25691,
+    "ubicacion": "Ajijic, Chapala, Jalisco, México",
+    "direccion": "Centro de Ajijic, 45920 Chapala, Jalisco",
+    "horario": "Acceso libre; actividades según local o sitio",
+    "costo": "Libre acceso; precios variables en galerías o tours",
+    "que_hacer": [
+      "Pasear por el malecón de Ajijic y sus murales coloridos",
+      "Visitar galerías de arte y talleres artesanales",
+      "Hacer senderismo en el Tepalo o miradores cercanos"
+    ],
+    "servicios": [
+      "Hoteles y restaurantes",
+      "Transporte público y taxis",
+      "Guías turísticos locales"
+    ],
+    "recomendaciones": "Ideal para escapada cultural, llevar cámara, respetar normas ambientales y de ruido.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Programa de Pueblo Mágico con enfoque ecológico",
+      "Protección del patrimonio natural del Tepalo"
+    ]
+  },
+  {
+    "nombre": "Bosque La Primavera",
+    "municipio": "Metropolitano",
+    "tipo": "Área natural protegida / Reserva de la biosfera",
+    "lat": 20.63688,
+    "lng": -103.56612,
+    "ubicacion": "Zapopan y Tala, Jalisco, México",
+    "direccion": "Carretera Guadalajara-Tala km 11, Zapopan, Jalisco",
+    "horario": "Todos los días de 6:00 a 18:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Senderismo y ciclismo de montaña",
+      "Observación de flora y fauna",
+      "Visitar áreas como La Mosca, Los Volcanes y Río Caliente"
+    ],
+    "servicios": [
+      "Áreas de descanso y señalización ecológica",
+      "Estacionamientos controlados",
+      "Puntos de vigilancia ambiental"
+    ],
+    "recomendaciones": "No hacer fuego, llevar agua, respetar rutas oficiales y fauna local.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Conservación del ecosistema forestal",
+      "Educación ambiental y control de accesos"
+    ]
+  },
+  {
+    "nombre": "Centro histórico de Guadalajara",
+    "municipio": "Guadalajara",
+    "tipo": "Zona cultural / ciudad",
+    "lat": 20.67611,
+    "lng": -103.34700,
+    "ubicacion": "Zona Centro, Guadalajara, Jalisco, México",
+    "direccion": "Av. Fray Antonio Alcalde 10, Zona Centro, Guadalajara, Jalisco 44100",
+    "horario": "Libre acceso al exterior; horarios variables en templos y recintos",
+    "costo": "Gratuito en áreas públicas; costo variable en museos y atracciones",
+    "que_hacer": [
+      "Visitar la Catedral de Guadalajara",
+      "Ver el Teatro Degollado",
+      "Recorrer la Rotonda de los Jaliscienses Ilustres",
+      "Pasear por plazas, arquitectura colonial y museos"
+    ],
+    "servicios": [
+      "Restaurantes y cafés",
+      "Guías turísticos",
+      "Transporte público cercano",
+      "Baños públicos"
+    ],
+    "recomendaciones": "Visita temprano para evitar multitudes, usa calzado cómodo, evita zonas saturadas en fines de semana.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Promoción del transporte público y zonas peatonales"
+    ]
+  },
+  {
+    "nombre": "Instituto Cultural Cabañas",
+    "municipio": "Guadalajara",
+    "tipo": "Museo / Patrimonio cultural",
+    "lat": 20.67790,
+    "lng": -103.33192,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Calle Cabañas 8, Zona Centro, Guadalajara, Jalisco 44100",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada general $80 MXN; descuentos para estudiantes y adultos mayores",
+    "que_hacer": [
+      "Observar los murales de José Clemente Orozco",
+      "Explorar exposiciones temporales de arte",
+      "Recorrer el edificio Patrimonio de la Humanidad"
+    ],
+    "servicios": [
+      "Visitas guiadas",
+      "Tienda de recuerdos",
+      "Accesibilidad para personas con discapacidad"
+    ],
+    "recomendaciones": "Visitar con tiempo, revisar las exposiciones actuales, evitar días de alta afluencia.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Restauración y uso responsable del patrimonio",
+      "Difusión cultural y educación ambiental"
+    ]
+  },
+  {
+    "nombre": "MUSA Museo de las Artes",
+    "municipio": "Guadalajara",
+    "tipo": "Museo de arte contemporáneo",
+    "lat": 20.67415,
+    "lng": -103.35640,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Av. Juárez 975, Col. Americana, Guadalajara, Jalisco 44160",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Explorar exposiciones de arte moderno y contemporáneo",
+      "Ver murales de José Clemente Orozco",
+      "Participar en recorridos y talleres educativos"
+    ],
+    "servicios": [
+      "Guías educativos",
+      "Accesibilidad para personas con movilidad reducida",
+      "Tienda y cafetería"
+    ],
+    "recomendaciones": "Ideal para amantes del arte, revisar programación antes de la visita, mantener silencio en salas.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Promoción del arte y la cultura local",
+      "Uso eficiente de espacios universitarios"
+    ]
+  },
+  {
+    "nombre": "Acuario Michin Guadalajara",
+    "municipio": "Guadalajara",
+    "tipo": "Acuario / entretenimiento familiar",
+    "lat": 20.69165,
+    "lng": -103.34914,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Av. Mariano Bárcena 990, Zona Centro, Guadalajara, Jalisco 44260",
+    "horario": "Todos los días de 11:00 a 19:00",
+    "costo": "Entrada general desde $299 MXN",
+    "que_hacer": [
+      "Ver especies marinas y de agua dulce",
+      "Participar en experiencias interactivas",
+      "Aprender sobre conservación de ecosistemas acuáticos"
+    ],
+    "servicios": [
+      "Tienda del acuario",
+      "Restaurante y cafetería",
+      "Estacionamiento y áreas recreativas"
+    ],
+    "recomendaciones": "Llegar temprano para evitar filas, revisar promociones, ideal para familias con niños.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Programas educativos sobre vida marina",
+      "Gestión responsable de residuos"
+    ]
+  },
+  {
+    "nombre": "Zoológico Guadalajara",
+    "municipio": "Guadalajara",
+    "tipo": "Zoológico / Área natural",
+    "lat": 20.73240,
+    "lng": -103.30325,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Paseo del Zoológico 600, Huentitán El Alto, Guadalajara, Jalisco 44390",
+    "horario": "Martes a domingo de 10:00 a 18:00",
+    "costo": "Entrada general desde $120 MXN; paquetes con safari o acuario $250-$350 MXN",
+    "que_hacer": [
+      "Recorrer zonas temáticas como Safari Masai Mara, Antártida y Herpetario",
+      "Visitar el Acuario y el SkyZoo",
+      "Disfrutar las vistas de la Barranca de Huentitán"
+    ],
+    "servicios": [
+      "Restaurantes y tiendas",
+      "Teleférico interno",
+      "Estacionamiento y áreas de descanso"
+    ],
+    "recomendaciones": "Usar ropa ligera y bloqueador solar, hidratarse, dedicar mínimo medio día.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Programas de conservación y reproducción de especies",
+      "Educación ambiental y manejo de hábitats controlados"
+    ]
+  },
+  {
+    "nombre": "Templo Expiatorio del Santísimo Sacramento",
+    "municipio": "Guadalajara",
+    "tipo": "Templo religioso / Arquitectura histórica",
+    "lat": 20.67338,
+    "lng": -103.36156,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Calle López Cotilla 935, Col. Centro, Guadalajara, Jalisco 44100",
+    "horario": "Lunes a domingo de 7:00 a 20:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Admirar su arquitectura neogótica y vitrales europeos",
+      "Ver el reloj carillón con figuras animadas",
+      "Asistir a misas o conciertos de órgano"
+    ],
+    "servicios": [
+      "Guías turísticos ocasionales",
+      "Áreas para oración y descanso",
+      "Accesibilidad parcial"
+    ],
+    "recomendaciones": "Respetar el silencio, vestir adecuadamente, ideal para fotografía arquitectónica.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Mantenimiento patrimonial continuo",
+      "Promoción del turismo cultural y religioso responsable"
+    ]
+  },
+  {
+    "nombre": "Mercado San Juan de Dios",
+    "municipio": "Guadalajara",
+    "tipo": "Mercado tradicional / Cultural",
+    "lat": 20.67474,
+    "lng": -103.33821,
+    "ubicacion": "Guadalajara, Jalisco, México",
+    "direccion": "Javier Mina 52, Zona Centro, Guadalajara, Jalisco 44100",
+    "horario": "Lunes a domingo de 8:00 a 18:00",
+    "costo": "Acceso libre; precios variables por producto",
+    "que_hacer": [
+      "Probar comida típica jalisciense",
+      "Comprar artesanías y recuerdos",
+      "Recorrer los tres niveles de locales comerciales"
+    ],
+    "servicios": [
+      "Baños públicos",
+      "Estacionamiento cercano",
+      "Seguridad municipal"
+    ],
+    "recomendaciones": "Cuidar pertenencias, evitar horas pico, ideal para conocer cultura local.",
+    "sostenibilidad": "Riesgo",
+    "medidas_sostenibles": [
+      "Uso de materiales reciclables en algunos locales",
+      "Iniciativas locales para manejo de residuos"
+    ]
+  },
+  {
+    "nombre": "Parque Mirador Independencia",
+    "municipio": "Guadalajara",
+    "tipo": "Mirador / Área natural",
+    "lat": 20.72952,
+    "lng": -103.29648,
+    "ubicacion": "Barranca de Huentitán, Guadalajara, Jalisco, México",
+    "direccion": "Huentitán El Bajo, Guadalajara, Jalisco 44259",
+    "horario": "Abierto todos los días de 6:00 a 19:00",
+    "costo": "Entrada gratuita",
+    "que_hacer": [
+      "Disfrutar vistas panorámicas de la Barranca de Huentitán",
+      "Caminar por senderos ecológicos",
+      "Hacer picnic o fotografía de naturaleza"
+    ],
+    "servicios": [
+      "Áreas verdes y miradores",
+      "Baños y zonas de descanso",
+      "Estacionamiento limitado"
+    ],
+    "recomendaciones": "Evitar horas de sol intenso, llevar agua y calzado cómodo, respetar senderos.",
+    "sostenibilidad": "Sostenible",
+    "medidas_sostenibles": [
+      "Conservación del ecosistema barranqueño",
+      "Fomento del ecoturismo urbano"
+    ]
+  }
+]
