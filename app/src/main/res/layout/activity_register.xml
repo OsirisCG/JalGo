@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/brand_bg"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Crear cuenta" android:textSize="20sp"
+        android:textColor="@color/brand_on"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/inName" android:hint="Nombre"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:padding="12dp" android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/inUser"
+        android:hint="Usuario"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:padding="12dp" android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/inPass" android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:padding="12dp" android:background="@android:drawable/editbox_background"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnRegister" android:text="Registrar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/brand_primary" android:textColor="@color/brand_on"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
